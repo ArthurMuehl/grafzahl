@@ -56,8 +56,6 @@ This package can be used in any typical supervised machine learning usecase invo
 
 `grafzahl` accepts text data as either character vector or the `corpus` data structure of `quanteda`.
 
-## Sample Input and Output Data
-
 A sample input is a `corpus`. This is an example dataset:
 
 ```{r}
@@ -66,6 +64,8 @@ library(grafzahl)
 library(quanteda)
 unciviltweets
 ```
+
+## Output Data
 
 The output is an S3 object.
 
@@ -88,10 +88,6 @@ With R installed:
 ```r
 install.packages("grafzahl")
 ```
-
-## Repository structure
-
-This repository follows [the standard structure of an R package](https://cran.r-project.org/doc/FAQ/R-exts.html#Package-structure).
 
 ## How to Use
 <!--
